@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reference</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+		.container{
+  		background-color: white;
+  		color:black;
+  		width:1210px;
+  		display:flex;
+  		flex-wrap:wrap;
+  		padding-left:250px;
+
+  	}
+  	.container a {
+  		color:black;
+  	}
+  	.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+  	#s1 ul {
+	background-color: blue;
+
+}
+#s1 a{
+	color:white;
+	font-size:20px;
+}
+
+#d5{
+	display:flex;
+	justify-content:flex-start;	
+	padding-left:250px;
+	background-color:blue;
+}
+#f5{
+	background-color:blue;
+	padding-left:250px;
+	color:white;
+	font-size:30px;
+}
+#gsearch{
+	margin:20px;
+	padding:25px;
+	padding-right:200px;
+}
+#gh{
+	padding:25px;
+	background-color:black;
+	color:white;
+	font-size:15px;
+}
+#g4{
+  height:20px;
+    padding-top:30px;
+
+}
+#mycarousel{
+	width:60px;
+	height:30px;
+}
+#j6{
+	padding-left:200px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+		<div id="s1">
+		<ul class="nav nav-tabs">
+	<li  role="presentation"class="dropdown"><a href="index.html"type="button"data-toggle="dropdown"aria-expanded="false"aria-haspopup="true">Acceuil<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="presentation.html">Qui sommes nous</a></li></ul></li>
+	
+	 <li  role="presentation"><a href="service.html"type="button">service</a></li>
+
+	
+		<li  role="presentation"><a href="reference.html"type="button">reference</a></li>	
+
+		
+		</ul></div></div>
+
+	<br><br><br>
+
+
+<div id="d5">
+    <form action="/action_page.php">
+  
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" id="gh">
+</form>
+       <div id="g4"> 
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</div>
+<div id="f5"> 
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script></div><br><br>
+<div class="container">
+
+    <div class="row">
+    	<div id="j6">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="image/200.jpg"  style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="image/201.jpg"  style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="image/203.jpg"  style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="image/204.jpg"  style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="image/205.jpg"  style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div></div>
+</div></div>
+</body>
+</html>

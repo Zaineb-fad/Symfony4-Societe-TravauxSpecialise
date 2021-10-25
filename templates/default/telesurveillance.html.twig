@@ -1,0 +1,89 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+<div id="d5">
+    <form action="/action_page.php">
+  
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" id="gh">
+</form>
+       <div id="g4"> 
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</div>
+<div id="f5"> 
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script></div><br><br>
+<div class="container">
+	
+
+    <div class="row">
+      <button>Start Animation</button>
+
+      <div id="g3"style="background:white;height:1000px;width:1000px;position:absolute;">
+      <h3>Télésurveillance</h3>
+    	<h4>Qu’est ce que la télésurveillance ? 
+</h4>
+<p>La télésurveillance est un système technique structuré en réseau permettant de surveiller à distance des lieux (publics ou privés), des machines (voir supervision et monitoring) ou des individus</p>
+<h5>Principes techniques
+ </h5>
+  
+<h6>Centre de télésurveillance</h6><ul><li>
+Les appareillages de télésurveillance se divisent en plusieurs classes.</li></ul>
+<h6>Capteur de position et d'état
+Les capteurs de position et d'état ont pour tâche</h6>
+<ul><li>	de donner la position des ouvrants des bâtiments, des pièces et des machines</li>.  
+<li>	de détecter tout mouvement dans les locaux sous surveillance.</li>
+<li>Pour surveiller les portes, on les équipe d'interrupteur magnétique couplé ou non à un système de contrôle d'accès.</li></ul>
+<h6>Capteur de son</h6>
+<p>On utilise :</p>
+<ul>
+<li>	des microphone pour écouter  les éventuels intrus, ou d'entendre les occupants d'un lieu</li>
+<li>	des interphones sans fil (Wi-Fi..) pour la télésurveillance des bébés dans leur chambre</li></ul>
+<h6>Capteur d'images</h6>
+<p>Des caméras de surveillance permettent de visualiser et d'enregistrer les images du lieu à protéger en les transmettant par liaison vidéo, réseau IP ou sans fil à un moniteur vidéo ou informatique
+Transmetteur (plus communément appelé le système MQEEBD)
+Dans certains cas, le système est complété par un transmetteur téléphonique numérique ou par un transmetteur GSM qui alerte le centre de télésurveillance ou le propriétaire de l'habitation dès qu’une anomalie est constatée ou une intrusion détectée</p> 
+<h6>Enregistreur</h6>
+<p>L'enregistreur permet d'enregistrer et de sauvegarder des données collectées (images, sons, etc.) pour une utilisation ultérieure.</p>
+<h6>Centre de télésurveillance</h6>
+<p>À l'autre bout de la chaîne, l'opérateur en télésurveillance, travaillant dans un centre de télésurveillance, réagit en fonction des consignes données : appel aux services compétents ou aux personnes concernées, intervention sur place, etc.
+Usages
+La télésurveillance est employée dans de nombreuses situations, généralement pour des raisons de sécurité :</p>
+<ul>
+<li>	dans le cadre de la sécurité routière,. ;</li>
+<li>	pour la surveillance des machines :</li>
+<li> 	dans le cadre de la prévention de la délinquance</li> 
+<li> la surveillance de lieux sensibles (banques, centrales nucléaires, etc.) et d'habitations,</li>   
+<li>	dans le cadre de la télémédecine, et en particulier pour la surveillance des patients à distance ;</li>
+<li>	pour la surveillance à distance des enfants et des personnes vulnérables</li></ul>
+<h4>Role de telesurveillance</h4>
+<ul>
+<li>la  réception et au traitement à distance des informations d'alarme, de service ou de maintenance délivrées par les installations de sécurité d'un site (incendie, intrusion, technique …).</li>
+<li>	Détection:Votre habitation est protégée grâce à un système d’alarme relié 24h/24 et 7j/7 à une station de télésurveillance agréée.</li>
+<li>Contrôle:, le professionnel de la station de télésurveillance reçoit une alerte, il contacte immédiatement votre domicile par téléphone et demande le mot de passe pour vérifier si la personne présente au domicile est habilitée ou non. Si le mot de passe est erroné ou sans réponse, il déclenche alors une intervention.</li>
+<li>Intervention:Si une effraction est constatée par l’opérateur, les forces de l’ordre sont prévenues..</li>
+</ul>
+</div></div></div>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("#g3");
+    div.animate({height: '9000px', opacity: '0.4'}, "slow");
+    div.animate({width: '1000px', opacity: '0.8'}, "slow");
+    div.animate({height: '1080px', opacity: '0.4'}, "slow");
+    div.animate({width: '800px', opacity: '0.8'}, "slow");
+  });
+});
+</script> 
+{% endblock %}

@@ -1,0 +1,162 @@
+
+       
+   
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}STS societe de travaux specialisé{% endblock %}</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> {% block stylesheets %}{% endblock %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>      
+    {% block javascripts %}{% endblock %}
+
+  <style>
+		.container{
+  		background-color: white;
+  		color:black;
+  		width:1210px;
+  		display:flex;
+  		flex-wrap:wrap;
+  		padding-left:250px;
+
+  	}
+  	.container a {
+  		color:black;
+  	}
+  	.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+  	#s1 ul {
+	background-color: blue;
+
+}
+#s1 a{
+	color:white;
+	font-size:20px;
+}
+
+#d5{
+	display:flex;
+	justify-content:flex-start;	
+	padding-left:250px;
+	background-color:blue;
+}
+#f5{
+	background-color:blue;
+	padding-left:250px;
+	color:white;
+	font-size:30px;
+}
+#gsearch{
+	margin:20px;
+	padding:25px;
+	padding-right:200px;
+}
+#gh{
+	padding:25px;
+	background-color:black;
+	color:white;
+	font-size:15px;
+}
+#g4{
+  height:20px;
+    padding-top:30px;
+
+}
+
+}
+#mycarousel{
+	width:100px;
+	height:25px;
+}
+#j6{
+	padding-left:0px;
+}
+#h5{
+	background-color: blue;
+	opacity:0.9;
+	color:white;
+	font-size:15px;
+}
+#k8{
+	padding-left:18px;
+}
+#b6{
+	background-color:white;
+
+
+	color:black;
+
+	padding-left:90px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+		<div id="s1">
+		<ul class="nav nav-tabs">
+	<li  role="presentation"class="dropdown"><a href="#"type="button"data-toggle="dropdown"aria-expanded="false"aria-haspopup="true">Acceuil<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/quisommesnous">Qui sommes nous</a></li></ul></li>
+	
+	 <li  role="presentation"><a href="/service"type="button">service</a></li>
+
+	
+		<li  role="presentation"><a href="/reference"type="button">reference</a></li>	
+                          <li  role="presentation"><a href="{{path('contact_new')}}">Contact</a></li>
+
+		
+		</ul></div></div>
+
+	<br><br><br>
+
+
+
+{% block body %}{% endblock %}
+</body>
+</html>
+

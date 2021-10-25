@@ -1,0 +1,90 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+<div id="d5">
+    <form action="/action_page.php">
+  
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" id="gh">
+</form>
+       <div id="g4"> 
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</div>
+<div id="f5"> 
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script></div><br><br>
+<div class="container">
+
+    <div class="row">
+<div id="s4"style="background:white;height:800px;width:1380px;position:absolute;">
+  <button>start animation</button>
+<div class="col-md-8">
+    	<h3>Qui sommes-nous?</h3>
+      <p>
+ Fondée à 2000,ST S est une société  basé à  la  Tunisie .Elle est spécialisée  dans le domaine de la sécurité et de la surveillance électronique.Il est le Leader à l 'echelle internationale. Il est le partenaire privilégié de tous les professionnels .Elle réfracte son affût de chaque innovation technologique.
+De toute les façons, Elle offre des solutions sur mesure à une clientèle spécifique tel que  les hôtels, les centres commerciaux, industrie ou des banques. 
+De plus, Notre équipe technique formée et expérimentée réalise ces installations suivant les règles de l’art. Afin d’étudier et évaluer profondément les risques de vol, et en général les dégâts qui menacent les entreprises
+Outre, Nos équipes de spécialistes se tiennent à votre disposition pour vous accompagner et vous aider dans la conception et la mise en place de votre demande
+ N’hésitez donc pas de vous faire guider dans le choix de votre installation par un de nos experts. </p>
+
+<ul>
+<li>	Audit sécurité & conseils
+un diagnostic sécurité personnalisé dans vos locaux est met en état d’exécution</li>
+<li>	Installation
+Installation, paramétrage de votre système de sécurité : vidéosurveillance, alarmes, contrôle d’accès</li>
+<li>	Maintenance 
+ la maintenance régulière de votre système de sécurité</li>
+<li>	Equipement
+Choix du matériel adapté à votre besoin et à votre budget</li>
+<li>	Dépannage
+En cas de panne, nos équipes interviennent au plus vite : prise en main à distance ou intervention sur site.</li>
+<li>	Evolutivité : des matériel en cours d’évolution </li>
+<li>	Accompagnement : conseils, assistance : </li>
+<li>	Matériel haut de gamme : Nous utilisons un matériel professionnel, à la pointe de la technologie, adapté aux besoins de notre client</li></ul>
+<h3>Parmi les solutions innovantes on cite :</h3>
+<ul>
+<li>	L’installation et vente des systèmes </li>
+	<li>Anti-intrusion.</li>
+	<li>Anti-incendie.</li>
+<li>	Vidéosurveillance.</li>
+<li>	Contrôle d’accès</li>
+<li>	Portes radars.</li>
+	<li>Interphones et vidéophones.</li>
+	<li>Le service de la télésurveillance.</li>
+	<li>Antivol à l’étalage.</li>
+	<li>l'installation des portes automatiques.</li>
+	<li>Installation informatique et standard.</li>
+	<li>Le service client avant tout</li>
+	
+<li>Une présence nationale</li>
+<li>Réactivité et Proximité</li>
+<li>sécurité incendie</li></ul>
+
+</div>
+<div class="col-md-4">
+   <img src="theme/image/91.jpg">
+      </div>
+</div></div></div>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("#s4");
+    div.animate({height: '1000px', opacity: '0.4'}, "slow");
+    div.animate({width: '1200px', opacity: '0.8'}, "slow");
+    div.animate({height: '1000px', opacity: '0.4'}, "slow");
+    div.animate({width: '1380px', opacity: '0.8'}, "slow");
+  });
+});
+</script> 
+{% endblock %}
